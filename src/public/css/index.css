@@ -1,0 +1,42 @@
+.attendance__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eeebeb;
+}
+
+.attendance__content h2 {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    font-weight: lighter;
+}
+.attendance__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.attendance__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attendance__button-submit {
+    width: 450px;
+    height: 170px;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+}

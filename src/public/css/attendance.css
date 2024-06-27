@@ -1,0 +1,53 @@
+.attendance__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #eeebeb;
+}
+
+.attendance__days {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeebeb;
+    padding: 20px 40px;
+}
+.attendance__days h2 {
+    margin: 0 20px;
+}
+
+.attendance__table {
+    width: 95%;
+    margin: 20px auto;
+    background-color: #eeebeb;
+    border-collapse: collapse;
+}
+
+.attendance__row th,
+.attendance__row td {
+    height: 65px;
+    border-top: 1px solid #969292;
+    border-bottom: 1px solid #969292;
+    padding: 8px;
+    text-align: center;
+}
+
+.day__select-button {
+    border: 1px solid #0336eb;
+    background-color: white;
+    color: #0336eb;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.day__select-button:disabled {
+    border: 2px solid gray;
+    color: gray;
+    cursor: not-allowed;
+}
