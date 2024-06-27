@@ -9,7 +9,7 @@
 http://localhost:8080/
 
 ## 他のリポジトリ
-https://github.com/hamakei0089/mock-case.git
+https://github.com/hamakei0089/demo-case.git
 
 ## 機能一覧
 会員登録
