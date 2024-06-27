@@ -33,7 +33,7 @@ MySQL8.0.26
 # 環境構築
 
 Dockerビルド
-1. git clone git@github.com:hamakei0089/mock-case.git
+1. git clone git@github.com:hamakei0089/demo-case.git
 2. DckerDesktopを立ち上げる
 3.docker-compose up -d –build
 
